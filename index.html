@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/logo-mobile.png" />
+
+  <title>revisakar</title>
+</head>
+
+<body>
+  <header id="header" class="cabecalho border">
+    <a href="#">
+      <h1 class="logo">revisakar</h1>
+    </a>
+    <button class="btn-menu">
+      <i class="fas fa-bars fa-lg"></i>
+    </button>
+    <button class="btn-header">
+      <i class="fa fa-arrow-circle-up"></i>
+    </button>
+
+    <nav class="menu">
+      <a href="" class="btn-close">
+        <i class="fas fa-times fa-lg"></i>
+      </a>
+      <!-- botão para fechar o menu -->
+      <ul>
+        <li><a href="#header" class="btn-menu-item">Home</a></li>
+        <li><a href="#clientes" class="btn-menu-item">Clientes</a></li>
+        <li><a href="#servicos" class="btn-menu-item">Serviços</a></li>
+        <li><a href="#peças" class="btn-menu-item">Peças</a></li>
+        <li><a href="#quem-somos" class="btn-menu-item">Quem somos</a></li>
+        <li><a href="#newsletter" class="btn-menu-item">Newsletter</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <div class="banner">
+    <div class="title">
+      <h2>Carro deu pane? Não se preocupe!Nóis Resolvemos.</h2>
+      <h3>
+        Estamos preparados para recebê-lo, e ajudar no quer for necessário.
+      </h3>
+    </div>
+
+    <div class="buttons">
+      <button class="btn-agendar">
+        Quer agendar um serviço? <i class="fas fa-arrow-circle-right"></i>
+      </button>
+      <button class="btn-sobre">
+        Sobre <i class="fas fa-question-circle"></i>
+      </button>
+    </div>
+  </div>
+  <!--slides-->
+  <div class="slider">
+
+    <div class="slides">
+      <!--radio buttons-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--fim radio buttons-->
+
+      <!--slide imagens-->
+      <div class="slide first">
+        <img src="images/SLIDE1.jpg" ALT="Imagem1" />
+      </div>
+      <div class="slide">
+        <img src="images/slide2.jpg" ALT="Imagem2" />
+      </div>
+      <div class="slide">
+        <img src="images/slide3.jpg" ALT="Imagem3" />
+      </div>
+      <div class="slide">
+        <img src="images/slide4.jpg" ALT="Imagem4" />
+      </div>
+      <!--FIM SLIDE IMAGENS-->
+
+      <!--NAVIGATION AUTO-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+    </div>
+    <div class="manual-navigation">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+  </div>
+  <div class="linha">
+    <h2></h2>
+
+  </div>
+
+  <!-- conteudo -->
+  <main class="servicos">
+    <!-- seção clientes -->
+    <section id="clientes" class="sections">
+      <h2>Clientes</h2>
+      <article class="servico">
+        <a href="#"><img src="images/clientes1.jpg" alt="Linha Leve" /></a>
+        <div class="inner">
+          <a href="#">Linha Leve</a>
+          <h4>Carros pequenos</h4>
+          <p>
+          Carro popular é uma categoria de automóveis que tem como público-alvo consumidores das classes trabalhadoras, 
+          e que é distinguida principalmente no contexto brasileiro.
+          Os carros pequenos são os mais populares, pois estão em maior circulação dentro das cidades e eles são responsáveis
+          pela média de atendimento no dia, de 80%, os serviços são: Elétrica, manutenção em arcodicionado e injeção elétrônica.
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/clientes2.jpg" alt="Linha de Caminhonetes" /></a>
+        <div class="inner">
+          <a href="#">Caminhonetes</a>
+          <h4>Pickups</h4>
+          <p>
+           Atualmente, caminhonetes e pickup's são ferramentas de trabalho essenciais que 
+           podem fazer toda a diferença para empresas que fazem transporte de produtos ou materiais, 
+           auxiliando na logística e eficiência do trabalho.
+           São diversos os modelos e tamanhos disponíveis no mercado atual, desde as menores até as mais robustas, 
+           essenciais para cargas maiores. Os serviços feitos são: elétrica, injeção eletrônica e ar condicionado. 
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/clientes3.jpg" alt="Linha Pesada" /></a>
+        <div class="inner">
+          <a href="#">Linha Pesada</a>
+          <h4>Caminhõoes</h4>
+          <p>
+            Normalmente, os caminhões são usados para transportar mercadorias.
+            Existem vários tipos de caminhões, cujas características variam de acordo com sua carga. 
+            Os caminhões mais simples têm um tipo de caixa onde são armazenados os objetos transportados.
+            E claro, que até eles precisam fazer alguns reparos, em lâmpadas, sensores 
+           em geral, ar condicionado e em outras partes elétricas.
+
+
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- seção serviços -->
+    <section id="servicos" class="sections">
+      <h2>Serviços</h2>
+      <article class="servico">
+        <a href="#"><img src="images/servico1.jpeg" alt="Injecao eletronica" /></a>
+        <div class="inner">
+          <a href="#">Injeção Eletrônica</a>
+          <h4>Carros Flex e á Diesel</h4>
+          <p>
+            A injeção eletrónica é um sistema de alimentação de combustível e gerenciamento 
+            eletrónico do motor de um veículo automotor - motor a combustão. Sua utilização em larga escala se deve 
+            à necessidade de as indústrias de automóveis reduzirem o índice de emissão de gases poluentes.
+            Os componentes do sistema de injeção eletrônica podem ser classificados de acordo com três grupos principais. 
+            São eles a central de informações, os sensores e os atuadores. 
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/servico2.jpeg" alt="Ar condicionado" /></a>
+        <div class="inner">
+          <a href="#">Ar Condicionado</a>
+          <h4>Carros pequeno, Caminhonetes e Caminhões</h4>
+          <p>
+            O ar-condicionado automotivo é um trocador de calor que usa as mudanças de estado 
+            de um fluido refrigerante para controlar a temperatura no veículo. Um compressor, conectado ao 
+            motor por meio de uma correia ou polia, pressuriza o fluido em estado gasoso e o envia através de 
+            tubulações até o condensador, que tem a função de resfriá-lo. Devido à alta pressão e à queda na temperatura, 
+            esse fluído torna-se líquido.
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/servico3.jpg" alt="Eletrica" /></a>
+        <div class="inner">
+          <a href="#">Elétrica</a>
+          <h4>Elétrica Geral</h4>
+          <p>
+            Apesar da elétrica automotiva contar com uma série de elementos que são importantes para o funcionamento 
+            do carro, é inevitável apontar a bateria como o coração desse sistema. Afinal, ela é a responsável por fornecer 
+            a corrente elétrica necessária para dar a partida no carro, bem como alimentar as luzes, farol, rádio, ar-condicionado, 
+            entre outros itens. Por ser um componente tão importante, problemas com a bateria afetam consideravelmente o funcionamento d
+            o carro.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- seção peças -->
+    <section id="peças">
+      <h2>Peças</h2>
+      <article class="servico">
+        <a href="#"><img src="images/pecas1.jpg" alt="Campanhas Publicitáias" /></a>
+        <div class="inner">
+          <a href="#">Injeção Eletrônica</a>
+          <h4>Toda linha</h4>
+          <p>
+            Módulos de injeção, distribuidores, bobinas de ignição, bicos injetores, sensores maf e map, sondas lambda, corpo borboleta, 
+            tbis, chicotes, velas, cabos de velas, filtros e outros.
+
+
+
+
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/pecas2.jpg" alt="Marketing Digital" /></a>
+        <div class="inner">
+          <a href="#">Ar Condicionado</a>
+          <h4>Todas as marcas e modelos</h4>
+          <p>
+            Magnética, evaporador, termostato, compressor, filtro.
+            No entanto, o básico e mais comum é verificar 
+            frequentemente as mangueiras e a pressão do gás, e realizar a troca do filtro.
+          </p>
+        </div>
+      </article>
+
+      <article class="servico">
+        <a href="#"><img src="images/pecas3.jpg" alt="Criação de Sites" /></a>
+        <div class="inner">
+          <a href="#">Elétrica em Geral</a>
+          <h4>Da Lâmpada ao Alternador</h4>
+          <p>
+            Lâmpadas, chicotes, sensores, eletroventiladores, fusíveis, polias, 
+            correias, alternadores, motores de partida, porta escova,
+            bomba do limpador, chave de seta, chave de luz e outras.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- seção quem somos -->
+    <section id="quem-somos">
+      <h2>Quem somos</h2>
+      <article class="artigo-quem-somos">
+        <a href="#"><img src="images/quemsomos.jpg" alt="quemsomos" /></a>
+        <div class="inner">
+          <a href="#">REVISAKAR</a>
+          <h3>Centro de Manutenção Automotiva</h3>
+          <p>
+            Nóis da Revisakar Centro de Manutenção Automotiva, estamos no mercado desde 2015,
+            sempre ganhando espaço e reconhecimento, buscamos atender nossos clientes da melhor 
+            forma, deixando assim a satisfação dos mesmo. Estamos empenhados para com todos nossos clientes para propocionar
+            as melhores peças e o melhor serviço de toda a região. Nossos colaboradores são os mais qualificados e experientes
+            nas suas especializades. Aqui assuminos o compromisso, de sempre ser o melhor no que fazemos!   
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Newsletter -->
+  <section id="newsletter" class="newsletter">
+    <h2>Inscreva-se Agora!</h2>
+    <h3>Receba novidades, dicas e muito mais!</h3>
+
+    <form action="">
+      <input type="email" name="email" placeholder="Seu Email" />
+      <button>Cadastrar</button>
+    </form>
+  </section>
+
+  <!-- rodape -->
+  <footer class="rodape">
+    <div class="socialicons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-google"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <p class="copyright">
+      Copyright Revisakar 2022 - Todos os direitos reservados.
+    </p>
+  </footer>
+
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js" ></script>
+  <script>
+    $('.btn-menu').click(function () {
+      $('.menu').show()
+    })
+
+    $('.btn-close').click(function () {
+      $('.menu').hide()
+      return false
+    })
+
+    // $('.btn-menu-item').click(function () {
+    //   $('.menu').hide()
+    //   return false
+    // })
+
+
+    $('.menu').click(function () {
+      $('.menu').hide()
+    })
+
+    $('.btn-sobre').click(function () {
+      window.location = '#quem-somos'
+    })
+
+    $('.btn-header').click(function () {
+      window.location = '#header'
+    })
+
+    $('.btn-agendar').click(function () {
+      window.location = 'registration.html'
+    })
+
+  </script>
+</body>
+
+</html>
